@@ -12,7 +12,7 @@
             <router-link to='/footer'>商家</router-link>
           </div>
       </div>
-    <router-view></router-view>
+    <router-view :seller="seller"></router-view>
       <h_eader></h_eader>
       <f_ooter></f_ooter>
   </div>
